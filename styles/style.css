@@ -1,0 +1,462 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* shared styles */
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+
+/* header related styles */
+.container {
+    width: 80vw;
+    height: 80vh;
+    position: relative;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.493);
+    background-blend-mode: multiply;
+    background-image: url('../resources/Banner\ Image.png');
+    background-size: cover;
+    border-radius: 16px;
+
+}
+
+.main-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 52px;
+    font-weight: 900;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+#happy-new-year {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    justify-content: space-around;
+    padding-top: 180px;
+}
+
+.discount-offer {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.discount-description {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.catagories {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.discount {
+    text-align: center;
+}
+
+/* welcome section  */
+.welcome-container {
+    width: 80vw;
+    height: 80vh;
+    position: relative;
+    margin: 120px auto;
+    background-color: rgba(0, 0, 0, 0.486);
+    background-blend-mode: multiply;
+    background-image: url('../resources/Vectorrr.png');
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.welcome-text {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    padding-bottom: 24px;
+}
+
+.welcome-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 50px;
+
+}
+
+.welcome-to-perty {
+    padding-left: 120px;
+    /* padding-top: 120px; */
+    max-width: 50%;
+}
+
+.btn-join {
+    border: none;
+    background: none;
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#image-2024 {
+    padding-right: 100px;
+}
+
+/* <!-- event place-time-date section --> */
+
+.place-time-date {
+    width: 80vw;
+    height: 70vh;
+    position: relative;
+    margin: 120px auto;
+    border-radius: 16px;
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+.red-text {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.place-time-date-detailes {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 100px;
+}
+
+.btn-join-now {
+    border: none;
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    margin-top: 50px;
+}
+
+
+/* New offer section */
+.new-offer {
+    width: 80vw;
+    height: 80vh;
+    position: relative;
+    margin: 120px auto;
+    border-radius: 16px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.offer-heading {
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+
+.coming-soon {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.offer-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.about-offer {
+    max-width: 30%;
+}
+
+#offer-img {
+    border: 15px solid #F00;
+    padding: 15px;
+    border-radius: 463px;
+}
+
+.year-2024 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+#happy-new-year-2024 {
+    padding-top: 40px;
+    padding-bottom: 0;
+}
+
+
+/* Holiday Sale Styles */
+.holiday {
+    width: 80vw;
+    height: 100vh;
+    position: relative;
+    margin: 120px auto;
+    align-items: center;
+}
+
+.holiday-heading {
+    text-align: center;
+
+}
+
+.holiday-function {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.holiday-sale {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+.holiday-sale-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#sale-50 {
+    color: black;
+}
+
+/* portfolio section */
+
+.portfolio-overview {
+    width: 80vw;
+    height: 150vh;
+    position: relative;
+    margin: 120px auto;
+}
+
+.portfolio-section {
+    text-align: left;
+}
+
+.best-gift {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+
+.portfolio-heading {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.portfolio-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+.portfolio-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-images img {
+    width: 350px;
+    padding-top: 15px;
+}
+
+/* subscribe related style */
+#news-letter {
+    width: 80vw;
+    height: 90vh;
+    position: relative;
+    margin: 120px auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+}
+
+
+#email-icon {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.newsletter-heading {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 22px;
+}
+
+.newsletter-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+.btn-subscribe {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 24px 56px;
+    border: none;
+}
+
+.email-box {
+    border-radius: 0px;
+    background: #FFF;
+    border: none;
+    padding: 25px 477px 25px 30px;
+    display: inline-block;
+}
+
+
+/* footer related styles */
+
+footer {
+    background: #070211;
+    width: 100vw;
+    height: 80vh;
+}
+
+#address {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.contact-section {
+    width: 80%;
+    margin: 0px auto;
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+#contact-number {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+#website-address {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.social-icons{
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.social-icons img{
+    padding-right: 20px;
+}
+
+.icons-section{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.horizontal-line{
+    opacity: 50%;
+}
+
+.copyright-section{
+    width: 80%;
+    margin: 0px auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#copyright{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.btn-unsubscribe{
+    border: none;
+    background: none;
+    color: white;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+}
